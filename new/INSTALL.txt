@@ -1,0 +1,16 @@
+
+Thank you for downloading our Joomla 1.5 template themza_j15_17 !
+
+Here's how you can add any Joomla 1.5 template to your Joomla 1.5.x installation:
+
+1. By uploading it via FTP to the `your-joomla1.5.x-installation/templates/' directory
+
+2. By browsing the template's zip archive from your Joomla Administration Panel:
+'Extensions' » 'Install/Uninstall', then push the 'Upload File & Install' button
+
+3. Again from the Administration Panel, set the template - themza_j15_17 - as 'Default' by browsing to 'Extensions' » 'Template Manager' and pushing the 'Default' button (located in the top right corner of the page).
+
+4. Finally, in 'Template Manager' click on the template name to access its template options.
+
+Enjoy!
+ 

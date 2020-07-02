@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 1.5//DTD template 1.0//EN" "http://dev.joomla.org/xml/1.5/template-install.dtd">
+<install version="1.5" type="template">
+	<name>themza_j15_17</name>
+	<version>1.0.1</version>
+	<creationDate>2009-14-02</creationDate>
+	<author>Themza Team</author>
+	<authorEmail>templates@themza.com</authorEmail>
+	<authorUrl>http://www.themza.com</authorUrl>
+	<copyright>ThemZa 2009</copyright>
+	<license>ThemZa TOS</license>
+	<description>Daily News</description>
+	<files>
+		<filename>index.php</filename>
+		<filename>index.html</filename>
+		<filename>templateDetails.xml</filename>
+		<filename>template_thumbnail.png</filename>
+		<filename>params.ini</filename>
+		<filename>favicon.ico</filename>
+		<filename>component.php</filename>
+		<filename>functions.php</filename>
+
+		<filename>css/index.html</filename>
+		<filename>css/template.css</filename>
+		<filename>css/blue.css</filename>
+		<filename>css/green.css</filename>
+		<filename>css/red.css</filename>
+		<filename>css/ieonly.css</filename>
+
+		<filename>html/index.html</filename>
+		<filename>html/modules.php</filename>
+		<filename>html/pagination.php</filename>
+
+		<filename>js/index.html</filename>
+		<filename>js/moomenu.js</filename>
+		<filename>js/mootools.js</filename>
+
+		<filename>images/bg_all.png</filename>
+		<filename>images/bg_h3.png</filename>
+		<filename>images/bg_page.png</filename>
+		<filename>images/contentheading_ico.png</filename>
+		<filename>images/f_area_bg.png</filename>
+		<filename>images/f_area_h3.png</filename>
+		<filename>images/index.html</filename>
+		<filename>images/logo1.png</filename>
+		<filename>images/logo2.png</filename>
+		<filename>images/logo3.png</filename>
+		<filename>images/logo4.png</filename>
+		<filename>images/main_bg.png</filename>
+		<filename>images/menu_col.gif</filename>
+		<filename>images/news-photo.jpg</filename>
+		<filename>images/search_bg.png</filename>
+		
+		<filename>images/red/bg_read_more.png</filename>
+		<filename>images/red/menu_arrow.gif</filename>
+		<filename>images/red/top_menu_bg.png</filename>
+		<filename>images/red/top_menu_left.png</filename>
+		<filename>images/red/top_menu_right.png</filename>
+		
+		<filename>images/green/bg_read_more.png</filename>
+		<filename>images/green/menu_arrow.gif</filename>
+		<filename>images/green/top_menu_bg.png</filename>
+		<filename>images/green/top_menu_left.png</filename>
+		<filename>images/green/top_menu_right.png</filename>
+		
+		<filename>images/blue/bg_read_more.png</filename>
+		<filename>images/blue/menu_arrow.gif</filename>
+		<filename>images/blue/top_menu_bg.png</filename>
+		<filename>images/blue/top_menu_left.png</filename>
+		<filename>images/blue/top_menu_right.png</filename>
+	</files>
+	<positions>
+		<position>breadcrumb</position>
+		<position>left</position>
+		<position>right</position>
+		<position>top</position>
+		<position>user1</position>
+		<position>user2</position>
+		<position>user4</position>
+		<position>debug</position>
+		<position>syndicate</position>
+	</positions>
+	<params>
+		<param name="colorVariation" type="list" default="red" label="Color Variation" description="Color variation to use">
+			<option value="red">Red</option>
+			<option value="blue">Blue</option>
+			<option value="green">Green</option>
+		</param>
+		<param type="spacer" />
+		<param name="dateDisplay" type="radio" default="1" label="Date Display" description="Display the date in the top right corner of the template.">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param type="spacer" />
+		<param name="hideLogo" type="radio" default="0" label="Hide Logo" description="Hide the logo.">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="logoVariation" type="list" default="1" label="Logo Variation" description="Logo variation to use">
+			<option value="1">1 (newspaper)</option>
+			<option value="2">2 (red globe)</option>
+			<option value="3">3 (blue globe)</option>
+			<option value="4">4 (green globe)</option>
+		</param>
+		<param type="spacer" />
+		<param name="topNewsDisplay" type="radio" default="1" label="Top News Display" description="Display the top news area.">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="topNewsTitle" type="text" default="Obama sets executive pay limits for bail-out companies" label="Top News Title" description="" size="60" />
+		<param name="topNewsContent" type="textarea" default="Yesterday all servers in the U.S. went out on strike in a bid to get more RAM and better CPUs. A spokes person said that the need for better RAM was due to some fool increasing the front-side bus speed. In future, buses will be told to slow down in residential motherboards." label="Top News Content" description="" rows="10" cols="20" />
+		<param name="topNewsPhoto" type="text" default="news-photo.jpg" label="Top News Photo" description="" size="50" />
+		<param name="topNewsLink" type="text" default="#" label="Top News Link" description="" size="50" />
+		<param type="spacer" />
+	</params>
+</install>
+

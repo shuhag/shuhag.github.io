@@ -1,0 +1,19 @@
+
+INSTALLATION METHOD:
+********************
+
+
+First of all edit db-info.php present in the main dir and fill all the required variables.
+Then run install.php to create the neccessary tables n also the database if you want...
+
+You must also change the permission of the directories "pictures" and "thumbnails" to full access (i.e 777)
+
+Now your script is ready to be launched..
+
+admin/index.php is the administration panel, where you can change the settings like name of your site and url etc
+
+DEFAULT PASSWORD IS "demo, change it as soon as possible.
+
+
+Thats all;
+For further information you can contact the script developer
